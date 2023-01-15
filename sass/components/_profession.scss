@@ -1,0 +1,33 @@
+.our-profession {
+    padding-bottom: 94px;
+        &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 50px;
+        padding: 0;
+      }
+        
+          &__item {
+        position: relative;
+        font-size: 0;
+      }
+          &__label {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--secondary-font-color);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: 0;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        background-color: var(--bg-overlay-color);
+          }
+      }
+  
